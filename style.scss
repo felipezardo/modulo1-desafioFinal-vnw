@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #efeef3;
+    padding: 10px 15px;
+    font-family: "Kodchasan", sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: absolute;
+    width: 100%;
+
+
+    img {
+        width: 13vw;
+        @media (max-width:500px){
+            width: 30vw;
+            
+           
+        }
+    }
+
+
+    ul {
+        list-style: none;
+        display: flex;
+
+
+        li {
+            margin: 0 10px;
+            @media (max-width:500px) {
+                margin: 10px;
+    
+    
+            }
+
+        }
+
+
+        @media (max-width:500px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 1.25rem;
+            text-align: center;
+            margin: 20px
+
+
+        }
+
+
+    }
+    @media (max-width:500px) {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+        
+        
+}
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    font-size: 1.5rem;
+    background-color: #efeef3;
+
+    .fundo {
+        width: 100%;
+        @media (max-width:500px) {
+          display: none;
+        }
+
+    }
+
+    .primeira {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+
+        img {
+            padding-left: 80px;
+            @media (max-width:500px) {
+                padding: 0;
+                width:80vw ;
+            }
+        }
+
+        div {
+            text-align: center;
+            padding: 0 130px;
+
+            h1 {
+                font-weight: 400;
+                @media (max-width:500px) {                    
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    margin: 20px 0;
+                }
+            }
+            @media (max-width:500px) {
+                padding: 0;
+                font-size: 1.25rem;
+                margin: 10px 0;
+            }
+
+        }
+
+        @media (max-width:500px) {
+            display: flex;            
+            flex-direction: column;
+            
+        }
+            
+
+    }
+
+    .segunda {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 50px;
+
+
+        h2 {
+            font-size: 1.875rem;
+            font-weight: 400;
+
+            margin: 80px;
+            width: 32vw;
+
+            @media (max-width:500px) {
+                margin: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+        }
+
+        .produtos {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            @media (max-width:500px) {
+                flex-wrap: wrap;
+                width: 80%;
+                margin: 20px 0;
+                gap: 30px;
+            }
+        }
+
+        @media (max-width:500px) {
+            display: flex;            
+            flex-direction: column;
+            padding: 0 30px;
+        }
+
+    }
+
+
+
+
+}
