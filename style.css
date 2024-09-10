@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #efeef3;
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-family: "Kodchasan", sans-serif;
   text-transform: uppercase;
   align-items: center;
@@ -31,14 +31,14 @@ header ul {
   display: flex;
 }
 header ul li {
-  margin: 0 10px;
+  margin: 0 13px;
 }
 header ul li:hover {
   font-weight: bolder;
 }
 @media (max-width: 500px) {
   header ul li {
-    margin: 20px;
+    margin: 20px 0 0 0;
   }
 }
 @media (max-width: 500px) {
@@ -111,6 +111,7 @@ body .primeira div h1 {
   body .primeira {
     display: flex;
     flex-direction: column;
+    margin: 30px;
   }
 }
 body .segunda {

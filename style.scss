@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #efeef3;
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-family: "Kodchasan", sans-serif;
     text-transform: uppercase;
     align-items: center;
@@ -36,14 +36,14 @@ header {
 
 
         li {
-            margin: 0 10px;
+            margin: 0 13px;
 
             &:hover {
                 font-weight: bolder;
             }
 
             @media (max-width:500px) {
-                margin: 20px;
+                margin: 20px 0 0 0;
             }
 
         }
@@ -125,6 +125,7 @@ body {
         @media (max-width:500px) {
             display: flex;
             flex-direction: column;
+            margin:30px;
 
         }
 
