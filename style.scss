@@ -16,12 +16,12 @@ header {
     font-weight: 400;
     position: absolute;
     width: 100%;
-    cursor: pointer;
+    
 
 
     img {
         width: 13vw;
-
+        cursor: pointer;
         @media (max-width:500px) {
             width: 40vw;
 
@@ -37,7 +37,7 @@ header {
 
         li {
             margin: 0 13px;
-
+            cursor: pointer;
             &:hover {
                 font-weight: bolder;
             }
